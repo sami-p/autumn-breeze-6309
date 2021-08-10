@@ -5,6 +5,7 @@
   <h3>Passengers:</h3>
   <% flight.passengers.each do |passenger| %>
     <%= passenger.name %>
+    <%= link_to "Remove #{passenger.name}", boarding_passenger_path(id: passenger.id, flight_id: flight.id),  method: :delete  %>
     <br></br>
   <% end %>
 <% end  %>
