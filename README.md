@@ -14,7 +14,7 @@ RSpec and Shoulda-Matchers have been installed and set up.
 4. `cd b2-mid-mod`
 5. `bundle install`
 
-When you run `bundle exec rspec` you should have 0 tests.
+When you run `bundle exec rspec` you should have 2 passing tests.
 
 ## Instructions
 
