@@ -1,0 +1,6 @@
+<h1>Welcome to <%= @airline.name %> Airlines</h1>
+<h2>Boarding Passengers:</h2>
+<% @airline.unique_adults.each do |adult| %>
+  <%= adult.name %>
+  <br></br>
+<% end %>
