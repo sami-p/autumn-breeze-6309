@@ -51,4 +51,15 @@ RSpec.describe 'Airlines Show Page' do
     expect(page).to_not have_content(@passenger_7.name)
     expect(page).to_not have_content(@passenger_8.name)
   end
+
+    # As a visitor
+    # When I visit an airline's show page,
+    # Then I see that the list of adult passengers is sorted
+    # by the number of flights each passenger has taken on the airline from most to least
+
+    # (Note: you should only make 1 database query to retrieve the sorted list of passengers)
+
+  # it 'displays the passengers list sorted from most frequent flyer to least' do
+  #
+  # end
 end
